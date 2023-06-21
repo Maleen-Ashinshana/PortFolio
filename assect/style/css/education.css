@@ -1,0 +1,659 @@
+/*
+.row_8{
+    !*    border: 1px solid red;*!
+    height: 1300px;
+    width: 1520px;
+    display: flex;
+    position: relative;
+    top: -40px;
+    background-color: #141414;
+    padding: 0;
+}
+.e2{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    font-family:"Alegreya" ;
+}
+!*Style For animation*!
+.pe1 {
+    color: red;
+    font-size: 50px;
+    font-family: "Alegreya";
+    font-weight: bolder;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    background: red -webkit-gradient(linear,left top,right top,from(red),to(#ED2B2A),color-stop(0.5,#FFE0D3)) 0 0 no-repeat;
+    background-size: 150px;
+    color: rgb(255,255,255,0.1);
+    -webkit-background-clip: text;
+    animation: animated 3s infinite;
+
+}
+.liner{
+    width: 20px;
+    height: 1000px;
+    background-color: red;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    margin: auto;
+    border-radius: 10px;
+}
+.main_circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.small_Circle{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom:0;
+    top: 0px;
+    right:5px ;
+    margin: auto;
+}
+.length_div{
+    width:300px;
+    height: 20px;
+    background-color: #7F8C8D;
+    position: absolute;
+    right:0px;
+    border-radius: 50px;
+    top: 100px;
+    !* margin: 50px;*!
+}
+.text_area{
+    width: 400px;
+    height: 200px;
+    background-color: #313030;
+    position: absolute;
+    right: 300px;
+    bottom: -90px;
+    border-radius: 40px;
+}
+.education_text{
+    color: white;
+    font-family: "Segoe UI Symbol";
+    font-size: 2em;
+    font-weight: 500;
+    position: absolute;
+    left: 100px;
+    bottom: 70px;
+
+}
+#length_div2{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+#text_area2{
+    position: absolute;
+    left: 300px;
+}
+#main_circle2{
+    position: absolute;
+    left: 0;
+}
+#education_text2{
+    position: absolute;
+    bottom: 10px;
+}
+
+!*3*!
+#length_div3{
+    position: absolute;
+    right: 0px;
+    top: 500px;
+}
+#education_text3{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+!*4*!
+#length_div4{
+    position: absolute;
+    left: 0px;
+    top: 700px;
+}
+#text_area4{
+    position: absolute;
+    left: 300px;
+}
+#main_circle4{
+    position: absolute;
+    left: 0;
+}
+#education_text4{
+    position: absolute;
+    bottom: 30px;
+}
+!*5*!
+#length_div5{
+    position: absolute;
+    right: 0px;
+    top: 900px;
+}
+#education_text5{
+    position: absolute;
+    bottom: 50px;
+    !*    left: 60px;*!
+}
+*/
+.education{
+
+       /* border: 1px solid red;*/
+    height: 1300px;
+    width: 1520px;
+    display: flex;
+    position: absolute;
+    bottom: -750%;
+    background-color: #141414;
+    padding: 0;
+}
+.e2{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    color: white;
+    font-size: 50px;
+    font-family:"Alegreya" ;
+}
+/*Style For animation*/
+.pe1 {
+    color: red;
+    font-size: 50px;
+    font-family: "Alegreya";
+    font-weight: bolder;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    background: red -webkit-gradient(linear,left top,right top,from(red),to(#ED2B2A),color-stop(0.5,#FFE0D3)) 0 0 no-repeat;
+    background-size: 150px;
+    color: rgb(255,255,255,0.1);
+    -webkit-background-clip: text;
+    animation: animated 3s infinite;
+
+}
+.liner{
+    width: 20px;
+    height: 1000px;
+    background-color: red;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 70px;
+    margin: auto;
+    border-radius: 10px;
+}
+.main_circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+}
+.small_Circle{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    bottom:0;
+    top: 0px;
+    right:5px ;
+    margin: auto;
+}
+.length_div{
+    width:300px;
+    height: 20px;
+    background-color: #7F8C8D;
+    position: absolute;
+    right:0px;
+    border-radius: 50px;
+    top: 100px;
+    /* margin: 50px;*/
+}
+.text_area{
+    width: 400px;
+    height: 200px;
+    background-color: #313030;
+    position: absolute;
+    right: 300px;
+    bottom: -90px;
+    border-radius: 40px;
+}
+.education_text{
+    color: white;
+    font-family: "Segoe UI Symbol";
+    font-size: 2em;
+    font-weight: 500;
+    position: absolute;
+    left: 100px;
+    bottom: 70px;
+
+}
+#length_div2{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+#text_area2{
+    position: absolute;
+    left: 300px;
+}
+#main_circle2{
+    position: absolute;
+    left: 0;
+}
+#education_text2{
+    position: absolute;
+    bottom: 10px;
+}
+
+/*3*/
+#length_div3{
+    position: absolute;
+    right: 0px;
+    top: 500px;
+}
+#education_text3{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+}
+/*4*/
+#length_div4{
+    position: absolute;
+    left: 0px;
+    top: 700px;
+}
+#text_area4{
+    position: absolute;
+    left: 300px;
+}
+#main_circle4{
+    position: absolute;
+    left: 0;
+}
+#education_text4{
+    position: absolute;
+    bottom: 30px;
+}
+/*5*/
+#length_div5{
+    position: absolute;
+    right: 0px;
+    top: 900px;
+}
+#education_text5{
+    position: absolute;
+    bottom: 50px;
+    /*    left: 60px;*/
+}
+@media all and (max-width: 1440px){
+   .liner{
+       left: -2%;
+   }
+    .text_area{
+        width: 400px;
+        height: 200px;
+        right: 100%;
+    }
+    .education_text{
+        font-size: 1.8em;
+    }
+    .length_div{
+        width: 270px;
+    }
+    #text_area2,#text_area4{
+        left: 100%;
+    }
+    #education_text2{
+        left: 10%;
+        bottom: 20%;
+    }
+    #education_text3{
+        left: 10%;
+    }
+    #education_text4{
+        left: 8%;
+        bottom: 30%;
+    }
+}
+@media all and (max-width: 1024px){
+    .liner{
+        width: 0.8%;
+        left: -16%;
+    }
+    .main_circle{
+        width: 16px;
+        height: 16px;
+    }
+    .small_Circle{
+        width: 8px;
+        height: 8px;
+    }
+    .length_div{
+        height: 10px;
+        width: 200px;
+    }
+    .text_area{
+        width: 300px;
+        height: 150px;
+        bottom: -600%;
+    }
+    .education_text{
+        font-size: 1.5em;
+    }
+    #education_text1{
+        right: 20%;
+        top: 20%;
+     }
+    #education_text5{
+        left: 5%;
+        top: 30%;
+    }
+}
+/*@media all  and (max-width: 1440px){
+    .pe1{
+        font-size: 2.5em;
+        top: 10%;
+    }
+    .e2{
+        font-size: 2.5em;
+        top: 15%;
+    }
+    .liner{
+        top: 10%;
+        width: 15px;
+        justify-content: center;
+    }
+    .length_div{
+        width: 240px;
+        height: 15px;
+    }
+    .main_circle{
+        width: 15px;
+        height: 15px;
+    }
+    .small_Circle{
+        width: 7.5px;
+        height: 7.5px;
+        left: 4px;
+    }
+    .text_area{
+        width:340px;
+        height: 160px;
+        left: -142%;
+        bottom: -70px;
+    }
+    .education_text{
+        font-size: 1.5em;
+        align-items: center;
+
+    }
+    #text_area2{
+        left: 240px;
+    }
+    #text_area4{
+        left: 240px;
+        top: -70px;
+    }
+}*/
+/*
+@media all and (max-width: 1024px) {
+    .pe1{
+        font-size: 2.5em;
+        top: 10%;
+    }
+    .e2{
+        font-size: 2em;
+        top: 15%;
+    }
+    .liner{
+        top: 10%;
+        width: 10px;
+        justify-content: center;
+        left: -17%;
+    }
+    .length_div{
+        width: 240px;
+        height: 10px;
+
+    }
+    .main_circle{
+        width:10px;
+        height:10px;
+    }
+    .small_Circle{
+        width: 5px;
+        height: 5px;
+        left: 2px;
+    }
+    .text_area{
+        width:250px;
+        height: 90px;
+        left: -105%;
+        bottom: -45px;
+        border-radius: 20%;
+    }
+    .education_text{
+        font-size: 1em;
+        align-items: center;
+        margin: auto;
+
+    }
+    #education_text1{
+        left: 30%;
+        bottom: 40%;
+    }
+    #education_text2{
+        left: 10%;
+        bottom: 30%;
+    }
+    #education_text3{
+        left: 10%;
+        bottom: 18%;
+    }
+    #education_text4{
+        left: 10%;
+        bottom: 35%;
+    }
+    #education_text5{
+        left: 10%;
+        bottom: 35%;
+    }
+    #text_area2{
+        left: 240px;
+    }
+    #text_area4{
+        left: 240px;
+        top: -40px;
+    }
+}
+@media all and (max-width: 768px) {
+    .education{
+      top: 680%;
+        height: 600px;
+    }
+    .pe1{
+        font-size: 2.5em;
+        top: 10%;
+    }
+    .e2{
+        font-size: 2em;
+        top: 18%;
+    }
+    .liner{
+!*        top: 10%;*!
+        width: 0px;
+        left: -45%;
+
+    }
+    .length_div{
+        width: 0%;
+        left: 50%;
+
+
+    }
+    .main_circle{
+        width:10px;
+        height:10px;
+        display: none;
+    }
+    .small_Circle{
+        width: 5px;
+        height: 5px;
+        left: 2px;
+        display: none;
+    }
+    .text_area{
+        width:400px;
+        height: 150px;
+
+    }
+    #text_area1{
+        top: 50%;
+    }
+    #text_area2{
+        top: 100%;
+    }
+    #text_area3{
+        top: 150%;
+    }
+    #text_area4{
+        top: 200%;
+    }
+    #text_area5{
+        top: 250%;
+    }
+
+    .education_text{
+        font-size: 1.5em;
+        align-items: center;
+        margin: auto;
+
+    }
+    #education_text1{
+        left: 30%;
+        bottom: 40%;
+    }
+    #education_text2{
+        left: 10%;
+        bottom: 30%;
+    }
+    #education_text3{
+        left: 10%;
+        bottom: 18%;
+    }
+    #education_text4{
+        left: 10%;
+        bottom: 35%;
+    }
+    #education_text5{
+        left: 10%;
+        bottom: 35%;
+    }
+}
+@media all and (max-width: 425px) {
+    .education{
+!*        border: 1px solid red;*!
+        top: 735%;
+        height: 800px;
+        width: 400px;
+    }
+    .pe1{
+        font-size: 2em;
+        top: 2%;
+        left: 25%;
+    }
+    .e2{
+        font-size: 1.7em;
+        position: absolute;
+        top: 8%;
+        left: 1.8%;
+    }
+    .liner{
+        left: -45%;
+    }
+    .length_div{
+        background-color: #141414;
+        width: 5px;
+        left: 700%;
+        margin: 10px;
+
+    }
+    .main_circle{
+        width:10px;
+        height:10px;
+        display: none;
+    }
+    .small_Circle{
+        width: 5px;
+        height: 5px;
+        left: 2px;
+        display: none;
+    }
+    .length_div>.text_area{
+        width:250px;
+        height: 100px;
+        left: 700%;
+    }
+    #text_area1{
+        top: -500%;
+
+    }
+    #text_area2{
+        top: -1300%;
+        left: 700%;
+
+    }
+    #text_area3{
+        top: -2000%;
+    }
+    #text_area4{
+        top: -2700%;
+        left: 700%;
+    }
+    #text_area5{
+        top: -3500%;
+    }
+    .education_text{
+        font-size: 1em;
+        align-items: center;
+    }
+    #education_text1{
+        left: 30%;
+        bottom: 40%;
+    }
+    #education_text2{
+        left: 10%;
+        bottom: 30%;
+    }
+    #education_text3{
+        left: 10%;
+        bottom: 18%;
+    }
+    #education_text4{
+        left: 10%;
+        bottom: 35%;
+    }
+    #education_text5{
+        left: 10%;
+        bottom: 35%;
+    }
+}
+*/

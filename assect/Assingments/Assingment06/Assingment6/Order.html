@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assect/boostrap/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assect/boostrap/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assect/css/fonts/css/all.css">
+    <link rel="stylesheet" href="assect/font-awesome/css/all.min.css">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+/*        div{
+            border: 2px solid black;
+        }*/
+        body>.row>.col>h2{
+            color: #146C94;
+            text-align: center;
+        }
+        body>.row{
+            background-color: #D9D9D9;
+        }
+        section>.d1>.col>.d{
+            width: 300px;
+            height: 700px;
+            background-color: #D9D9D9;
+        }
+        section>.d1>.col>.d>div{
+            width: 250px;
+            height: 50px;
+            aspect-ratio: 3/3;
+            background-color: #19A7CE;
+            transition-duration: 1s;
+            border-radius: 10px;
+            position: relative;
+            right: 220px;
+        }
+        section>.d1>.col>.d>div>.h3{
+            position: absolute;
+            width: max-content;
+            height: max-content;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            left: 50px;
+            color: white;
+        }
+        section>.d1>.col>.d>div:hover{
+            left: 10px;
+        }
+        body>.board{
+            border: 1px solid black;
+            width: 350px;
+            height: 300px;
+            position: absolute;
+            left: 320px;
+            top: 80px;
+        }
+        body>.board>.sub-board{
+            border: 1px solid #AFD3E2;
+            background-color: #AFD3E2;
+            width: 350px;
+            height: 50px;
+            position: absolute;
+            left: 0px;
+            top: 0px
+        }
+       body>.board>#OrderId{
+           border: 1px solid black;
+           position: absolute;
+           top: 80px;
+           left: 10px;
+           width: 70px;
+           height: 30px;
+       }
+       body>.board>.lable-1{
+           position: absolute;
+           top: 55px;
+           left: 10px;
+       }
+       body>.board>#Order-Date{
+           border: 1px solid black;
+           position: absolute;
+           top :80px;
+           left: 220px;
+           width: 100px;
+           height: 30px;
+       }
+        body>.board>.date{
+            position: absolute;
+            top: 55px;
+            left: 220px;
+        }
+        body>.board>#Customer-Id{
+            border: 1px solid black;
+            position: absolute;
+            top :160px;
+            left: 10px;
+            width: 330px;
+            height: 40px;
+        }
+        body>.board>.Customer-Id{
+            position: absolute;
+            top: 130px;
+            left: 10px;
+        }
+        body>.board>#Customer-Name{
+            border: 1px solid black;
+            position: absolute;
+            top :240px;
+            left: 10px;
+            width: 330px;
+            height: 40px;
+        }
+        body>.board>.Customer-Name{
+            position: absolute;
+            top: 210px;
+            left: 10px;
+        }
+        body>.OrderB{
+            border: 1px solid black;
+            width: 400px;
+            height: 300px;
+            position: absolute;
+            left: 730px;
+            top: 80px;
+        }
+        body>.OrderB>.form-select{
+            /*width: 100px;
+            height: 40px;*/
+            position: absolute;
+            top: 70px;
+            left: 0px;
+        }
+        body>.OrderB>.form-select>.Item-code{
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        body>.OrderB>.Item-Name{
+            position: absolute;
+            top: 120px;
+            left: 5px;
+        }
+        body>.OrderB>#Item-Name{
+            position: absolute;
+            top: 150px;
+            left: 5px;
+            width: 100px;
+            height: 30px;
+        }
+        body>.OrderB>.Price{
+            position: absolute;
+            top: 120px;
+            left: 170px;
+        }
+        body>.OrderB>#Price{
+            position: absolute;
+            top: 150px;
+            left: 170px;
+            width: 100px;
+            height: 30px;
+        }
+        body>.OrderB>.Qty{
+            position: absolute;
+            top: 120px;
+            left: 340px;
+        }
+        body>.OrderB>#Qty{
+            position: absolute;
+            top: 150px;
+            left: 320px;
+            width: 70px;
+            height: 30px;
+        }
+
+        body>.OrderB>.Order-Qty{
+            position: absolute;
+            top: 190px;
+            left: 10px;
+        }
+        body>.OrderB>#Order-Qty{
+            position: absolute;
+            top: 220px;
+            left: 10px;
+            width: 150px;
+            height: 30px;
+        }
+        body>.OrderB>.btn-primary{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            border-radius: 10px;
+        }
+        body>.totale-board{
+            border: 1px solid black;
+            width: 350px;
+            height: 300px;
+            position: absolute;
+            right: 10px;
+            top: 80px;
+        }
+        body>.totale-board>.h4{
+            color: #0d6efd;
+            text-align: center;
+        }
+        body>.totale-board>.cash{
+            position: absolute;
+            left: 150px;
+        }
+        body>.totale-board>#cash{
+            position: absolute;
+            top: 70px;
+            width: 150px;
+            left: 100px;
+        }
+        body>.totale-board>.discount{
+            position: absolute;
+            left: 150px;
+            top: 120px;
+        }
+        body>.totale-board>.form-select-discount{
+            position: absolute;
+            bottom: 130px;
+            left: 100px;
+            width: 150px;
+        }
+        body>.totale-board>.balance{
+            position: absolute;
+            bottom: 95px;
+            left: 150px;
+        }
+        body>.totale-board>#Balance{
+            width: 150px;
+            position: absolute;
+            bottom: 50px;
+            left: 100px;
+        }
+        body>.totale-board>.btn-primary{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            border-radius: 10px;
+
+        }
+        body>.table{
+            position: absolute;
+            left: 310px;
+            bottom: 300px;
+            height: 50px;
+            width: 1210px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col">
+        <!-- 1 of 12-->
+        <h2>Maleen Pos System</h2>
+    </div>
+
+    <!--            <div class="col">
+                     1 of 12
+
+                </div>-->
+    <!--        <div class="col">
+                2 of12
+            </div>
+            <div class="col">
+                3 of12
+            </div>
+            <div class="col">
+                4 of12
+            </div>
+            <div class="col">
+                5 of12
+            </div>
+            <div class="col">
+                6 of12
+            </div>
+            <div class="col">
+                7 of12
+            </div>
+            <div class="col">
+                8 of12
+            </div>
+            <div class="col">
+                9 of12
+            </div>
+            <div class="col">
+                10 of 12
+            </div>
+            <div class="col">
+                11 of 12
+            </div>
+            <div class="col">
+                12 of 12
+            </div>-->
+</div>
+<section>
+    <div class="d1">
+        <div class="col">
+<!--            <a class="navbar-brand" href="#">Maleen POS System</a>-->
+            <!--1 of 12-->
+            <div class="d"><br>
+                <div class="button">
+                    <a class="nav-link active" aria-current="page" href="index.html"><h3 class="h3" style="color: white">Customer</h3></a>
+
+                </div><br><br>
+                <div class="button">
+                    <a class="nav-link active" aria-current="page" href="Item.html"><h3 class="h3" style="color: white">Item</h3></a>
+                    <!--<h3 class="h3">Items</h3>-->
+                </div><br><br>
+                <div class="button">
+                    <a class="nav-link active" aria-current="page" href="Order.html"><h3 class="h3" style="color: white">Order</h3></a>
+                    <!--<h3 class="h3">Order</h3>-->
+                </div><br><br>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="board">
+    <div class="sub-board">
+        <h3 style="text-align: center">Invoice Details</h3>
+    </div>
+    <label class="lable-1">Order Id</label>
+    <input type="text" class="form-control" id="OrderId" style="text-align: center">
+    <label class="date">Date</label>
+    <input type="text" class="form-control" id="Order-Date" style="text-align: center">
+    <label class="Customer-Id">Customer Id</label>
+    <input type="text" class="form-control" id="Customer-Id" style="text-align: center">
+    <label class="Customer-Name">Customer Name</label>
+    <input type="text" class="form-control" id="Customer-Name" style="text-align: center">
+</div>
+<div class="OrderB">
+    <div class="sub-board2" style="background-color: #AFD3E2">
+        <h3 style="text-align: center">Order Details</h3>
+    </div>
+    <select class="form-select" aria-label="Default select example">
+        <label class="Item-code">Item</label>
+        <option selected>Item Code</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    <label class="Item-code">Item Code</label>
+    <label class="Item-Name">Item Name</label>
+    <input type="text" class="form-control" id="Item-Name" style="text-align: center">
+    <label class="Price">Price</label>
+    <input type="text" class="form-control" id="Price" style="text-align: center">
+    <label class="Qty">Qty</label>
+    <input type="text" class="form-control" id="Qty" style="text-align: center">
+    <label class="Order-Qty">Order Qty</label>
+    <input type="text" class="form-control" id="Order-Qty" style="text-align: center">
+    <button type="button" class="btn btn-primary">Add</button>
+</div>
+<div class="totale-board">
+    <h4 class="h4">Total:195865/=</h4>
+    <label class="cash">Cash</label>
+    <input type="text" class="form-control" id="cash" style="text-align: center">
+    <label class="discount">Discount</label>
+    <select class="form-select-discount" aria-label="Default select example">
+        <option selected>discount</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    <label class="balance">Balance</label>
+    <input type="text" class="form-control" id="Balance" style="text-align: center">
+    <button type="button" class="btn btn-primary">Pay</button>
+</div>
+<table class="table">
+    <thead style="background-color: #AFD3E2">
+    <tr>
+        <th scope="col"style="color: white" id="i">Item Code</th>
+        <th scope="col"style="color: white" id="n">Item Name</th>
+        <th scope="col"style="color: white" id="g">Price</th>
+        <th scope="col"style="color: white" id="t">Qty</th>
+        <th scope="col"style="color: white" id="h">Total</th>
+
+    </tr>
+    </thead>
+    <tbody id="tBody">
+
+    </tbody>
+</table>
+</body>
+</html>
