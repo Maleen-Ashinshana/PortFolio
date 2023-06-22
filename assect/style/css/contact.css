@@ -234,6 +234,77 @@
         right: 35%;
     }
 }
+@media all and (max-width: 768px){
+    .contact{
+        top: 965%;
+        height: 705px;
+
+    }
+    .c1{
+        font-size: 3em;
+    }
+    .c2{
+        left: 130%;
+    }
+
+    .img1{
+        width: 30px;
+        height: 30px;
+
+      /*  !* top: 100%;*!*/
+    }
+    #phone-img{
+        top: 20%;
+    }
+    #email_img{
+        top:30%;
+        left: 3%;
+    }
+    .tel{
+        top: 80%;
+    }
+    #tel1{
+        top: 20%;
+    }
+    #email1{
+        top: 30%;
+    }
+
+    .tel,.email_to{
+        font-size: 1em;
+    }
+    .text{
+        left: 15%;
+    }
+    #nameText{
+        left: 515px;
+        border-radius: 5px;
+        top: 135px;
+        /*left: 33%;
+        width: 15%;
+        height: 5%;
+        top: -135px;
+        border-radius: 5px;*/
+    }
+    #emailText{
+        left: 30%;
+        width: 18%;
+        height: 5%;
+        border-radius: 5px;
+    }
+    #massageText{
+        left: 19%;
+        width: 30%;
+        height: 25%;
+        top: 240px;
+    }
+    .submit{
+        width: 100px;
+        height: 40px;
+        left: 40%;
+        bottom: 30%;
+    }
+}
 /*@media all  and (max-width: 1440px){
 
    .c1{

@@ -200,7 +200,7 @@ button {
     /*    height: 730px;
         width: 1520px;*/
     position: absolute;
-    top: 100%;
+    top: 98%;
     height: 96vh;
     width:98.8vw;
   /*  display: flex;
@@ -469,6 +469,42 @@ button {
         right: 38%;
         border-radius: 8px;
     }
+}
+@media all and (max-width: 768px){
+
+    .about{
+        /*border: 1px solid white;*/
+        top: 99%;
+    }
+    .a1{
+        left: 38%;
+        font-size: 2.5em;
+    }
+    .a2{
+        left: 120%;
+        font-size: 1em;
+    }
+    .about_img{
+        width: 330px;
+        height: 330px;
+        left: 30%;
+    }
+    .aboutText{
+        top: 55%;
+        font-size: 1.5em;
+    }
+    .icon{
+        left: 38%;
+        top: 44%;
+    }
+    .custom-btn{
+        width: 20%;
+        height: 7%;
+        top: 75%;
+    }
+    /*.aboutText{
+        left: 10%;
+    }*/
 }
 /*.icon a{
     display: inline;

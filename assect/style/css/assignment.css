@@ -195,6 +195,40 @@
         right: 2%;
     }
 }
+@media all and (max-width: 768px){
+    .assignment{
+        /*position: absolute;*/
+
+        top: 578%;
+        height: 700px;
+    }
+    .slider{
+
+         width: 730px;
+        height: 70%;
+        left: 1%;
+        top: 10%;
+    }
+   /* .p-h1{
+        font-size: 2em;
+    }*/
+    .a-p{
+        font-size: 1em;
+        top: 25%;
+    }
+    #next{
+        left: 92%;
+    }
+    #prev{
+        left: -2%;
+    }
+    .items{
+        width: 35%;
+        height:50%;
+        top: 30%;
+        left: 33%;
+    }
+}
 /*@media all  and (max-width: 1440px){
     .slider{
         width: 1000px;

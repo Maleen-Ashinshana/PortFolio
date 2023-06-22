@@ -112,8 +112,8 @@ body{
         position: relative;
         width: 40px;
         height: 30px;
-        top: 0%;
-        left: 2%;
+        bottom: -19%;
+        left: 1%;
         cursor: pointer;
         display: flex;
         justify-content: center;
@@ -150,13 +150,9 @@ body{
         content: "";
         position: absolute;
         right: 15px;
-        /*left: 15px;*/
         bottom: 5px;
         width: 0;
         height: 5px;
-      /*  background-color:red ;
-        background-image: linear-gradient(to right,#070A52,#f5380a);
-        border-radius: 10px;*/
         transition: width 1.50s ease-out;
         animation: none;
     }
