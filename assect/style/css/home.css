@@ -304,18 +304,16 @@
     }
 }
 @media all and (max-width:768px){
-    .home{
 
-    }
     .box{
         display: none;
-
     }
     .nameC>.line-1{
-        right: -107%;
+        right: -85%;
     }
     .nameC>.line-2{
-        right: -34%;
+        width: 26px;
+        right: -20%;
     }
     .home>.nameC{
         /*border: 1px solid blue;*/
@@ -336,51 +334,68 @@
     .auto_type3{
         left: 10%;
     }
-    /*.nameC{
-        border: 1px solid blue;
-        right: 0%;
-        width: 1000px;
-        height: 400px;
+}
+@media all and (max-width:426px){
+    .home>.nameC{
+       /* border: 1px solid blue;*/
+        width: 390px;
+        height: 233px;
+        right: 5%;
     }
-    .nameC>.line-1{
-        !*border: 1px solid purple;*!
-        width: 2%;
-        height: 3%;
-        right: -95%;
-        -webkit-backface-visibility: hidden;
-    }
-    .nameC>.line-2{
-        border: 1px solid blue ;
-        right: -37%;
+    .home>.nameC>#homeName{
+        /*border: 1px solid red;*/
+        /*width: 100px;*/
+        height: 250px;
+        left: -75px;
     }
     .nameC>.text>#AS1{
-        border: 1px solid green;
-        width: 400px;
-        height: 200px;
-        left: -13%;
+        font-size: 0.75em;
+        top: 62px;
     }
     .nameC>.text>#AS1>#AS2{
-        top: 70%;
+        left: -4%;
     }
-    .nameC>.text{
-        left: -16%;
-        height: 120%;
-        top: -59%;
+    .nameC>.line-1{
+        width: 24px;
+        right: -154%;
+    }
+    .nameC>.line-2{
+        width: 26px;
+        right: 15%;
+    }
+    .auto_type4{
+        font-size: 1.8em;
+    }
+    /*.auto_type1{
+        font-size: 2em;
+    }*/
+/*    .main_img{
+        width: 100%;
         height: 100%;
-    }*/
-    /*.homeIMG{
-        display: block;
-    }*/
-/*!*    .imgLine{
-    !*        width: 220px;
-    height: 220px;
-    position: absolute;
-    top: 40%;
-    left: 60%;
-    rotate: 0deg;*!
-    display: none;
-}*/
+    }
+    .auto_type1{
+        top: 15%;
+        font-size: 1.5em;
+        left: 3%;
 
+    }
+    .auto_type2{
+        top: 22%;
+        left: 15%;
+        font-size: 2em;
+        display: block;
+    }
+
+    .auto_type3{
+        top: 50%;
+        left: 5%;
+        font-size: 1.5em;
+    }
+    .auto_type4{
+        top: 60%;
+        left: 5%;
+        font-size: 1.7em;
+    }*/
 }
 /*@media all and (max-width:425px){
     .main_img{

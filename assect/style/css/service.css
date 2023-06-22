@@ -449,6 +449,55 @@ font-size: 24px;
         top: 50%;
     }
 }
+@media all and (max-width: 426px) {
+
+ .service{
+     /*border: 1px solid red;*/
+     width: 750px;
+     height: 750px;
+ }
+    .se1{
+        font-size: 2em;
+        left: 18%;
+    }
+
+    .canvas_img{
+        width: 150px;
+        height: 150px;
+    }
+    .canvas{
+        width: 350px;
+        height: 250px;
+        top: -20%;
+        left: 10%;
+
+    }
+    #c1{
+
+        left: 20%;
+        top: -25%;
+
+    }
+    #c2{
+        position: absolute;
+        top: 45%;
+        right: 10%;
+    }
+    #c3{
+        position: absolute;
+        left: 10%;
+        top: 80%;
+    }
+    #c4{
+        position: absolute;
+        left: 10%;
+        top: 120%;
+    }
+    .canvas_copy {
+        left: 10%;
+        top: 50%;
+    }
+}
 /*
 @media all and (max-width: 1024px) {
 
