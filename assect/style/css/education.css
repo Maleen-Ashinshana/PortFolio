@@ -367,6 +367,43 @@
         top: 30%;
     }
 }
+@media all and (max-width: 851px) {
+   /* .pe1{
+        left: 10px;
+    }*/
+    #edu{
+        left: 45px;
+        font-size: 38px;
+    }
+    .e2{
+        left: 110px;
+        font-size: 35px;
+    }
+    .liner{
+        left: -320px;
+    }
+    .length_div{
+        width: 135px;
+    }
+    .text_area{
+        width: 255px;
+        height: 130px;
+    }
+    .education_text{
+        font-size: 20px;
+    }
+    #education_text1{
+        left: 60px;
+        top: 50px;
+    }
+    #education_text4{
+        left: 51px;
+        top: 27px;
+    }
+    #education_text5{
+        left: 55px;
+    }
+}
 @media all and (max-width: 768px) {
     .education{
 
@@ -405,77 +442,6 @@
         bottom: -90px;
     }
 
-/*    .liner{
-        !*!*        top: 10%;*!*!
-    width: 0px;
-        left: -45%;
-
-    }
-    .length_div{
-        width: 0%;
-        left: 50%;
-
-
-    }
-    .main_circle{
-
-        display: none;
-    }
-    .small_Circle{
-
-        display: none;
-    }
-    .text_area{
-        width:400px;
-        height: 150px;
-
-    }
-    #text_area1{
-        top: 50%;
-        left: 5%;
-    }
-    #text_area2{
-        top: 100%;
-     right: 100%;
-    }
-    #text_area3{
-        top: 150%;
-        left: 5%;
-    }
-    #text_area4{
-        top: 200%;
-    }
-    #text_area5{
-        top: 250%;
-        left: 5%;
-    }
-
-    .education_text{
-        font-size: 1.5em;
-        align-items: center;
-        margin: auto;
-
-    }
-    #education_text1{
-        left: 30%;
-        bottom: 40%;
-    }
-    #education_text2{
-        left: 10%;
-        bottom: 30%;
-    }
-    #education_text3{
-        left: 10%;
-        bottom: 18%;
-    }
-    #education_text4{
-        left: 10%;
-        bottom: 35%;
-    }
-    #education_text5{
-        left: 10%;
-        bottom: 35%;
-    }*/
 }
 @media all and (max-width: 426px) {
     .education{

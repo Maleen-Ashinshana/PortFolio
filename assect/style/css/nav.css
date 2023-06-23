@@ -80,6 +80,16 @@ body{
         font-size: 0.9em;
     }
 }
+@media all and (max-width: 851px) {
+    .nav-link{
+        left: 100px;
+
+    }
+    .nav-link:hover::before{
+        width: 40px;
+    }
+    
+}
 @media all  and (max-width:768px){
     .nav{
 /*        background: red;*/

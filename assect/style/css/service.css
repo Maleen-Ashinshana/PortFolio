@@ -402,6 +402,32 @@ font-size: 24px;
         top: 20%;
     }
 }
+@media all and (max-width: 851px){
+    .se1{
+        font-size: 2.5em;
+        left: 22%;
+
+    }
+    .canvas{
+        top: -25%;
+        left: 5%;
+    }
+    #c1{
+        left: 28px;
+        top: -150px
+    }
+    #c2{
+        left: -27px;
+        top: -170px;
+    }
+    #c3{
+        left: -90px;
+    }
+    #c4{
+        left: -53%;
+        top: 20%;
+    }
+}
 @media all and (max-width: 768px) {
 /*   .service{
        border: 1px solid white;

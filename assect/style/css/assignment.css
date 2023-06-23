@@ -195,6 +195,26 @@
         right: 2%;
     }
 }
+@media all and (max-width: 851px){
+    .slider{
+        border: 1px solid blue;
+        width: 55.8%;
+    }
+    .items{
+
+        width: 240px;
+        height: 325px;
+        left: 310px;
+    }
+    #next{
+        right: 1%;
+        top: 325px
+    }
+    #prev{
+        left: 0%;
+        top: 330px;
+    }
+}
 @media all and (max-width: 768px){
     .assignment{
         /*position: absolute;*/

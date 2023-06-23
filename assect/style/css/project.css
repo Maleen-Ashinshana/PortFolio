@@ -495,6 +495,38 @@
         left: 30%;
     }*/
 }
+@media all and (max-width: 851px){
+    .p1{
+        font-size: 2.55em;
+    }
+    .cn{
+        width: 110%;
+        height: 90%;
+        top: 110px;
+    }
+    #card_1{
+        left: -20%;
+        top: -25px;
+    }
+    #card_2{
+        left: 35%;
+        bottom: 482px;
+
+    }
+    #card_3{
+        left: -20%;
+        bottom: 50%;
+
+    }
+    #card_4{
+        left: 58%;
+        bottom: 22%;
+    }
+    #card_5{
+        left: 32%;
+        bottom: -16%;
+    }
+}
 @media all and (max-width: 768px) {
     .project{
 
