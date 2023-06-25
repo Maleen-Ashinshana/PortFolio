@@ -197,7 +197,7 @@
 }
 @media all and (max-width: 851px){
     .slider{
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
         width: 55.8%;
     }
     .items{

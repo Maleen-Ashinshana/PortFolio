@@ -438,8 +438,13 @@
         height: 160px;
         left: -213px;
     }
-    #text_area1,#text_area2, #text_area3,#text_area4,#text_area5{
+    #text_area1, #text_area3,#text_area5 {
+        left: 10px;
         bottom: -90px;
+    }
+    #text_area2,#text_area4{
+        top: -63px;
+        left: 237px;
     }
 
 }

@@ -560,27 +560,27 @@
     }
 
     #card_1{
-        left: 25%;
+        left: 17%;
         top: -70%;
     }
     #card_2{
-        left: 25%;
+        left: 17%;
         bottom: 175%;
     }
     #card_3{
-        left: 25%;
+        left: 17%;
         bottom: 275%;
     }
     #card_4{
-        width: 460px;
-        height: 245px;
-        left: 25%;
+        width: 528px;
+        height: 267px;
+        left: 17%;
         bottom: -2050%;
     }
     #card_5{
-        width: 460px;
-        height: 245px;
-        left: 25%;
+        width: 528px;
+        height: 267px;
+        left: 17%;
         bottom: -2600%;
     }
     .view{
